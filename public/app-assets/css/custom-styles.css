@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+/* The emerging W3C standard that is currently Firefox-only */
+* {
+scrollbar-width: thin;
+scrollbar-color: #b5bdbc #e2e6e6;
+}
+
+/* Works on Chrome/Edge/Safari */
+*::-webkit-scrollbar {
+width: 8px;
+border-radius: 5px;
+}
+*::-webkit-scrollbar-track {
+background: #e2e6e6;
+}
+*::-webkit-scrollbar-thumb {
+background: #b5bdbc;
+border-radius: 5px;
+}
+
+/* End Chrome Scrollbar */
+
+html body{
+    background-color: #fff;
+    font-size: 100% !important;
+    color: #000;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .header-navbar, .table-condensed, .daterangepicker{
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+table{
+    color: #000;
+}
+.daterangepicker .calendar-table th, .daterangepicker .calendar-table th{
+    font-weight: 600;
+}
+/* p{
+    font-family: 'FreightSansProBook';
+    font-weight: normal;
+    font-style: normal;
+    color:#062d4a;
+} */
+a:hover{
+    text-decoration: underline !important;
+}
+p{
+    font-size: 14px;
+    color: #000;
+}
+.nav-link:hover{
+    text-decoration: none !important;
+}
+.text-color{
+    color: #1c2365;
+}
+.header-bg {
+    background-image: url('../../app-assets/images/header.png');
+    background-position: center center;
+    background-size: 100%;
+}
+.pdf-link{
+    display: flex;
+    align-items: center;
+    
+}
+.pdf-icon{
+    background-image: url('../../app-assets/images/svg/pdf-download.svg');
+    background-position: top left;
+    background-size: 100%;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+.header-navbar {
+    min-height: 3rem;
+}
+.header-navbar .navbar-header .navbar-brand .brand-logo {
+    width: 80px;
+}
+.header-navbar.navbar-dark.navbar-border {
+    border-bottom: none;
+}
+.header-navbar.navbar-shadow {
+    box-shadow: 0px 13px 20px -4px rgba(0, 0, 0, 0.1);
+}
+.header-navbar .navbar-container ul.nav li{
+    max-width: 213px;
+}
+.header-navbar .navbar-container ul.nav li > a.nav-link {
+    padding: .8em 1em;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+nav.header-navbar{
+    min-height: 5rem;
+    align-items: flex-start;
+}
+html body .content .content-wrapper .content-header-title {
+    text-transform: inherit;
+    font-weight: 400;
+    letter-spacing: normal;
+    color: #1c2365;
+    font-size: 1.5rem;
+}
+.card.card-normal{
+    background-color: transparent;
+    box-shadow: none;
+}
+.bg-gradient-x-grey-blue {
+    background-image: none;
+}
+.navbar-dark {
+    background: none;
+}
+.navbar-dark.navbar-horizontal {
+    background: none;
+}
+.content-header-title2{
+    background-color: #e7edf5;
+    border: 1px solid #b2b6ba;
+    padding: 15px;
+    border-radius: 30px;
+    font-weight: 700 !important;
+}
+.table-0 th, .table-0 td{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.ant-table-body{
+    max-height: calc(100vh - 443px) !important;
+}
+.ant-table-column-sorter-up, .ant-table-column-sorter-down {
+    font-size: 12px;
+}
+.ant-select-lg {
+    font-size: 14px !important;
+}
+.ant-select-single:not(.ant-select-customize-input) .ant-select-selector{
+    border-radius: .25rem !important;
+    border: 1px solid #BABFC7 !important;
+}
+.fa-info-circle{
+    cursor: pointer;
+}
