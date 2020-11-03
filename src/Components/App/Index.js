@@ -373,26 +373,7 @@ export class Home extends Component {
                         </Select>
                       </fieldset>
                     </div>
-                    <div className="col-xl-2 col-lg-4 col-md-12">
-                      <fieldset className="form-group">
-                        <Select
-                          style={{ width: "100%" }}
-                          onChange={this.hanldeModalityChange}
-                          placeholder="Modality"
-                          size="large"
-                          showSearch
-                          dropdownMatchSelectWidth={false}
-                          allowClear={true}
-                          onClear={this.hanldeModalityChange}
-                        >
-                          {this.state.Filters.Modality.map(item => (
-                            <Select.Option key={item.value} value={item.value}>
-                              {item.value}
-                            </Select.Option>
-                          ))}
-                        </Select>
-                      </fieldset>
-                    </div>
+                    
                     {/* <div className="col-xl-2 col-lg-4 col-md-12">
                             <fieldset className="form-group">
                               <Select
